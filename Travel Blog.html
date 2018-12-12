@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Webpage Assignment">
+      <meta name="keywords" content="HTML,CSS">
+      <meta name="author" content="Jaspal Kaur Batra">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css\style-minified.css">
+      <title>
+        Travel Blog
+      </title>
+      <script>
+          //Scroll Indicator
+          // When the user scrolls the page, execute myFunction 
+          window.onscroll = function() {myFunction()};
+
+          function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+          }
+      </script>
+  </head>
+  <body>
+      <header>
+        <nav>
+          <h2 class="logo">Hello Travellers! :D</h2>
+          <a href="#" class="active">Recommended</a>
+          <a href="#">Bangalore Travel Blog</a>
+          <a href="#">Places</a>
+          <a href="#">Food</a>
+          <a href="#">Activities</a>
+        </nav>
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>  
+      </header>
+
+      <section class="parallax" style="background-image: url(images/bangalore5.jpg); height: 100%;"></section>    
+      <main>  <!-- Hero Section -->
+        <div class="container3366">   <!-- 33% column for Image, 66% column for content -->
+            <div class="column-33">
+                <figure>
+                  <div class="container">     <!--Image Overlay -->
+                    <img src="images\blog.jpg" alt="Blogger" class="image" >
+                    <div class="middle">
+                      <div class="text">Jaspal</div>
+                    </div>
+                  </div>
+                </figure>
+            </div>
+            <div class="column-66">
+              <h2>Home Away From Home</h2>
+              <h3 class="large-font">First Time in Bangalore?</h3>
+              <p><span>A journey of one year</span> Being first time away from home, I was in search of a place which resembled my home, my hometown, everything that kept me away from the feeling of being "Homesick". So, in Bangalore itself, I started looking for another Punjab. We punjabis are known to be a foodie, so yeah, everything started from there onwards.. Search for food! Good and apetizing gourmet! Nevertheless, What is Bangalore known for? I can't neglect that.. Lakes, Monuments, Pubs, TechParks, so much to be explored yet. Here on this webpage I have shared a few must try-ons on your visit to this lively metro-city. </p>        
+            </div>
+          
+        </div>
+      </main>
+
+      <section class="parallax" style="background-image: url('images/park.jpg');"></section>
+      <section>
+              <!-- Places -->
+       <div class="container6633">  <!-- 66% column for content, 33% column for Image-->
+          
+            <div class="column-66">
+             <h2>Luscious Greens</h2>
+             <h3 class="large-font">Looking for Peace?</h3>
+             <p><span>The Cubbon Park is the place!</span> This place has a forest-alike look right in the heart of Bangalore which is what attracted me when I was heading to the city from the airport, that's when I made my mind to explore it. After digging a bit about the same, I realised this park has a library too.. Well after realising that, I couldn't stop myself from visiting this peaceful place and yes I did! It was a great experience to explore the place where there was existence of diverse habitat.</p>
+            </div>
+            <div class="column-33">
+              <figure>
+                  <div class="container">
+                    <img src="images\cubbonpark2.jpg" alt="CubbonPark" class="image" >
+                    <div class="middle">
+                      <div class="text">The Cubbon Park</div>
+                    </div>
+                  </div>
+              </figure>
+            </div>
+          
+        </div>
+      </section>
+
+      <section class="parallax" style="background-image: url('images/amusement.gif');"></section>
+
+      <section>            <!-- Places -->
+        <div class="container3366">
+          
+            <div class="column-33">
+             <figure>
+              <div class="container">
+                <img src="images\wonderla.png" alt="Wonder La" class="image" >
+                <div class="middle">
+                  <div class="text">WonderLa</div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="column-66">
+              <h2>Adventure</h2>
+              <h3 class="large-font">Crazy for Rides?</h3>
+              <p><span>Amusement Park? Being there ever?</span> Everybody has a child inside which should be given all the pleasures and there shouldn't be any age where you should stop yourself from doing adventure unless some health issues are there!? So when ready for a quality day out, take your loved ones to this amusement park, named, WonderLa. At this place, there is something or the other for all age groups, so one must be giving it a shot.</p> 
+            </div>
+          
+        </div>
+      </section>
+
+      <section class="parallax" style="background-image: url('images/dessert7.jpg');"></section>
+
+      <section>            <!-- Food -->
+        <div class="container6633">
+          
+            <div class="column-66">
+              <h2>Death By Chocolate</h2>
+              <h3 class="large-font">Craving for Chocolate?</h3>
+              <p><span>The Corner House's famous Death By Chocolate</span> Got a sweet tooth or otherwise, you should not miss this thing when you come to the city of lakes. Corner house is yet another ice cream parlour in Bangalore but what makes it unique, is it's history and presence. It has 36 years of history but in Bangalore only, here itself there are some 17 branches but not outside:( . Whatsoever the case is but it's DBC (Death by chocolate) is simply love. "Heaven Encountered" feeling for chocolate lovers and my regular thing too. It's customizable so everytime you have it you can try a different version of it and trust me it will be worth it!</p>      
+            </div>
+            <div class="column-33">
+              <figure>
+                <div class="container">
+                  <img src="images\dbc.jpg" alt="DBC" class="image" >
+                    <div class="middle">
+                      <div class="text">The Corner House</div>
+                    </div>
+                </div>
+              </figure>
+            </div>
+          
+        </div>
+      </section>
+
+      <section class="parallax" style="background-image: url('images/food.gif');"></section>
+
+      <section>      <!-- Food -->
+        <div class="container3366">
+          
+            <div class="column-33">
+              <figure>
+                <div class="container">
+                  <img src="images\meghana.jpg" alt="MeghanaFoods" class="image" >
+                  <div class="middle">
+                    <div class="text">Meghana's Foods</div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="column-66">
+              <h2>Foodie</h2>
+              <h3 class="large-font">Spicy, Chicken Biryani?</h3>
+              <p><span>Meghana's boneless chicken biryani</span> It's a quite buzz among all the biryani fans about meghana's biryani. Meghana Food is a branch of an Andhra restaurant chain serving simple curries, biryanis and tandoor dishes. If you are cravng for a too spicy meal just go for Andhra dishes which are easily accessible in Bangalore and specifically this place for it's well known chicken biryani. You will love it, irrespective of your love for spicy food.</p>        
+            </div>
+          
+        </div>
+      </section>
+
+      <section class="parallax" style="background-image: url('images/food.jpg');"></section>
+
+      <footer>
+        <nav>
+          <article class="base">
+            <h4 class="col">CONTACT</h4><br><br>
+            <a href="#">jaspalkaurbatra95@gmail.com</a><br>
+            <a href="#">+91 768 194 1118</a><br>
+          </article>
+          <article class="base_alt">
+            <h4 class="col">NAVIGATION</h4><br><br>
+            <a href="#">Recommended</a><br>
+            <a href="#">Bangalore Travel Blog</a><br>
+            <a href="#">Places</a><br>
+            <a href="#">Food</a><br>
+            <a href="#">Activies</a><br>
+          </article>
+          <article class="base">
+            <h4 class="col">LET'S KEEP IN TOUCH</h4><br><br>
+            <a href="#"><img src="images/instagram.png" alt="instagram"></a><br>
+            <a href="#"><img src="images/twitter.png" alt="twitter"></a><br>
+            <a href="#"><img src="images/quora.png" alt="qoura"></a><br>
+            <a href="#"><img src="images/linkedin.png" alt="linkedin"></a><br>
+          </article>
+        </nav>
+      </footer>
+
+
+  </body>
+</html>
