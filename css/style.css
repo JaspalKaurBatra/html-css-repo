@@ -6,6 +6,7 @@ body, html {
   font-family: 'Inknut Antiqua', sans-serif;
   color: black;
   font-size: 14px;
+  text-align: justify;
 }
 
 /* Style the header: fixed position (always stay at the top) */
@@ -31,13 +32,15 @@ header {
   width: 0%;
 }
 
+/* Logo- top-left of the page */
 .logo{
-  
   width: 55%;
   font-size: 20px;
   color: #ff9999;
 }
 
+/* Flexbox for navigation links */
+/* flex containers */
 header>nav {
   display: flex;
   flex-flow: row wrap;
@@ -47,6 +50,7 @@ header>nav {
   align-content: stretch;
 }
 
+/* flex items */
 header>nav>a {
   justify-content: space-around;
   flex: flex-grow;
@@ -81,11 +85,10 @@ nav>a.active {
 }
 
 
+/* parallax */
 .parallax {
-  /* The image used 
-  background-image: url('flowers.jpg'); 
-
-  /* Full height */
+ 
+   /* height */
   height: 70%; 
 
   /* Create the parallax scrolling effect */
@@ -94,6 +97,8 @@ nav>a.active {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Image Overlay */
 .container {
   position: relative;
   width: 100%;
@@ -139,7 +144,7 @@ nav>a.active {
 }
 
 
-/* zig zag*/
+/* zig zag divs: Ratio 33:66 or 66:33 */
 
 * {
   box-sizing: border-box;
@@ -203,7 +208,7 @@ nav>a.active {
   padding: 20px;
 }
 
-
+/* Decoration of the articles */
 .large-font {
   color: #ff9999;
 }
@@ -212,7 +217,6 @@ span{
   font-size: 16px;
   text-decoration: bold;
 }
-
 
 img {
   display: block;
@@ -231,6 +235,8 @@ img {
   }
 }
 
+/* Navigation links in footer */
+/* Fles container */
 footer>nav{
   display: flex;
   flex-flow: row wrap;
@@ -240,6 +246,7 @@ footer>nav{
   align-content: stretch;
 }
 
+/* Flex items */
 footer>nav>article {
   justify-content: space-evenly;
   flex-grow: 1;
@@ -250,7 +257,7 @@ footer>nav>article {
   padding: 4px;
 }
 
-
+/* styling of the footer flex */
 .base{
   background-color: #f0f0f0;
 }
