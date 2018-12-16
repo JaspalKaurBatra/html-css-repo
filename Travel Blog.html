@@ -6,22 +6,10 @@
       <meta name="keywords" content="HTML,CSS">
       <meta name="author" content="Jaspal Kaur Batra">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="css\style-minified.css">
+      <link rel="stylesheet" href="cssstyle-minified.css">
       <title>
         Travel Blog
       </title>
-      <script>
-          //Scroll Indicator
-          // When the user scrolls the page, execute myFunction 
-          window.onscroll = function() {myFunction()};
-
-          function myFunction() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
-          }
-      </script>
   </head>
   <body>
       <header>
@@ -44,7 +32,7 @@
             <div class="column-33">
                 <figure>
                   <div class="container">     <!--Image Overlay -->
-                    <img src="images\blog.jpg" alt="Blogger" class="image" >
+                    <img src="images/blog.jpg" alt="Blogger" class="image" >
                     <div class="middle">
                       <div class="text">Jaspal</div>
                     </div>
@@ -73,7 +61,7 @@
             <div class="column-33">
               <figure>
                   <div class="container">
-                    <img src="images\cubbonpark2.jpg" alt="CubbonPark" class="image" >
+                    <img src="images/cubbonpark2.jpg" alt="CubbonPark" class="image" >
                     <div class="middle">
                       <div class="text">The Cubbon Park</div>
                     </div>
@@ -92,7 +80,7 @@
             <div class="column-33">
              <figure>
               <div class="container">
-                <img src="images\wonderla.png" alt="Wonder La" class="image" >
+                <img src="images/wonderla.png" alt="Wonder La" class="image" >
                 <div class="middle">
                   <div class="text">WonderLa</div>
                   </div>
@@ -121,7 +109,7 @@
             <div class="column-33">
               <figure>
                 <div class="container">
-                  <img src="images\dbc.jpg" alt="DBC" class="image" >
+                  <img src="images/dbc.jpg" alt="DBC" class="image" >
                     <div class="middle">
                       <div class="text">The Corner House</div>
                     </div>
@@ -140,7 +128,7 @@
             <div class="column-33">
               <figure>
                 <div class="container">
-                  <img src="images\meghana.jpg" alt="MeghanaFoods" class="image" >
+                  <img src="images/meghana.jpg" alt="MeghanaFoods" class="image" >
                   <div class="middle">
                     <div class="text">Meghana's Foods</div>
                   </div>
@@ -182,7 +170,18 @@
           </article>
         </nav>
       </footer>
+      <script>
+          //Scroll Indicator
+          // When the user scrolls the page, execute myFunction 
+          window.onscroll = function() {myFunction()};
 
+          function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+          }
+      </script>
 
   </body>
 </html>
