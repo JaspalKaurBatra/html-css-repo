@@ -21,13 +21,13 @@ header {
 /* The progress container (grey background) */
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 5px;
   background: #ccc;
 }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
-  height: 8px;
+  height: 5px;
   background: #ff9999;
   width: 0%;
 }
@@ -35,8 +35,7 @@ header {
 /* Logo- top-left of the page */
 .logo{
   width: 55%;
-  font-size: 20px;
-  color: #ff9999;
+  float: left;
 }
 
 /* Flexbox for navigation links */
