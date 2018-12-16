@@ -6,7 +6,8 @@
       <meta name="keywords" content="HTML,CSS">
       <meta name="author" content="Jaspal Kaur Batra">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="cssstyle-minified.css">
+      <link rel="stylesheet" href="css/style-minified.css">
+      <link rel="icon" href="icons/logo.png" type="image/png">
       <title>
         Travel Blog
       </title>
@@ -15,18 +16,19 @@
       <header>
         <nav>
           <h2 class="logo">Hello Travellers! :D</h2>
-          <a href="#" class="active">Recommended</a>
-          <a href="#">Bangalore Travel Blog</a>
-          <a href="#">Places</a>
-          <a href="#">Food</a>
-          <a href="#">Activities</a>
+          <a href="#top" class="active">Recommended</a>
+          <a href="#top">Travel-Blog</a>
+          <a href="#places">Places</a>
+          <a href="#food">Food</a>
+          <a href="#top">Activities</a>
+          <a href="#contact">Contact Me</a>
         </nav>
         <div class="progress-container">
           <div class="progress-bar" id="myBar"></div>
         </div>  
       </header>
 
-      <section class="parallax" style="background-image: url(images/bangalore5.jpg); height: 100%;"></section>    
+      <section class="parallax" style="background-image: url(images/bangalore5.jpg); height: 100%;" id="top"></section>    
       <main>  <!-- Hero Section -->
         <div class="container3366">   <!-- 33% column for Image, 66% column for content -->
             <div class="column-33">
@@ -49,7 +51,7 @@
       </main>
 
       <section class="parallax" style="background-image: url('images/park.jpg');"></section>
-      <section>
+      <section id="places">
               <!-- Places -->
        <div class="container6633">  <!-- 66% column for content, 33% column for Image-->
           
@@ -98,7 +100,7 @@
 
       <section class="parallax" style="background-image: url('images/dessert7.jpg');"></section>
 
-      <section>            <!-- Food -->
+      <section id="food">            <!-- Food -->
         <div class="container6633">
           
             <div class="column-66">
@@ -147,7 +149,7 @@
       <section class="parallax" style="background-image: url('images/food.jpg');"></section>
 
       <footer>
-        <nav>
+        <nav id="contact">
           <article class="base">
             <h4 class="col">CONTACT</h4><br><br>
             <a href="#">jaspalkaurbatra95@gmail.com</a><br>
@@ -155,11 +157,11 @@
           </article>
           <article class="base_alt">
             <h4 class="col">NAVIGATION</h4><br><br>
-            <a href="#">Recommended</a><br>
-            <a href="#">Bangalore Travel Blog</a><br>
-            <a href="#">Places</a><br>
-            <a href="#">Food</a><br>
-            <a href="#">Activies</a><br>
+            <a href="#top">Recommended</a><br>
+            <a href="#top">Bangalore Travel Blog</a><br>
+            <a href="#places">Places</a><br>
+            <a href="#food">Food</a><br>
+            <a href="#top">Activies</a><br>
           </article>
           <article class="base">
             <h4 class="col">LET'S KEEP IN TOUCH</h4><br><br>
